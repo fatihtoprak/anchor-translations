@@ -2,23 +2,23 @@
 
 return array(
 
-	'posts' => 'Mesajlar',
+	'posts' => 'İçerikler',
 
-	'create_post' => 'Yeni bir yazı oluşturun',
-	'noposts_desc' => 'Herhangi bir mesaj yok!',
+	'create_post' => 'Yeni bir içerik oluşturun',
+	'noposts_desc' => 'Henüz herhangi bir içerik yok!',
 
 	// form fields
-	'title' => 'Mesaj Başlığı',
+	'title' => 'İçerik Başlığı',
 	'title_explain' => '',
 	'title_missing' => 'Lütfen bir başlık girin',
 
-	'content' => 'Mesaj içeriği',
+	'content' => 'Metin içeriği',
 	'content_explain' => 'Sadece yazın.',
 
-	'slug' => 'Sabit Değer',
-	'slug_explain' => 'Mesajınız için sabit bir değer girin ve bu sadece ascii karakter içermelidir',
+	'slug' => 'Sayfa Uzantısı',
+	'slug_explain' => 'Site adresinden sonraki kısım için seo başlığını giriniz.Sadece ascii karakter içermesine dikkat ediniz',
 	'slug_missing' => 'Lütfen mesajınız için sabit bir değer girin ve bu sadece ascii karakter içermelidir',
-	'slug_duplicate' => 'Sabit değer zaten var',
+	'slug_duplicate' => 'Bu uzantı var zaten',
 	'slug_invalid' => 'Sabit değer harf içermelidir',
 
 	'description' => 'Açıklama',
